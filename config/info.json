@@ -2,7 +2,6 @@
   "layouts": {
     "LAYOUT": {
       "layout": [
-        // Row 1 Left
         { "label": "=", "row": 0, "col": 0, "x": 0, "y": 0 },
         { "label": "1", "row": 0, "col": 1, "x": 1.25, "y": 0 },
         { "label": "2", "row": 0, "col": 2, "x": 2.25, "y": 0 },
@@ -10,40 +9,35 @@
         { "label": "4", "row": 0, "col": 4, "x": 4.25, "y": 0 },
         { "label": "5", "row": 0, "col": 5, "x": 5.25, "y": 0 },
                 
-        // Row 1 Right
         { "label": "7", "row": 0, "col": 6, "x": 12.75, "y": 0 },
         { "label": "8", "row": 0, "col": 7, "x": 13.75, "y": 0 },
         { "label": "9", "row": 0, "col": 8, "x": 14.75, "y": 0 },
         { "label": "0", "row": 0, "col": 9, "x": 15.75, "y": 0 },
         { "label": "-", "row": 0, "col": 10, "x": 16.75, "y": 0 },
 
-        // Row 2 Left
         { "label": "Tab", "row": 1, "col": 0, "x": 0, "y": 1 },
         { "label": "Q", "row": 1, "col": 1, "x": 1.25, "y": 1 },
         { "label": "W", "row": 1, "col": 2, "x": 2.25, "y": 1 },
         { "label": "E", "row": 1, "col": 3, "x": 3.25, "y": 1 },
         { "label": "R", "row": 1, "col": 4, "x": 4.25, "y": 1 },
         
-        // Row 2 Right
         { "label": "U", "row": 1, "col": 5, "x": 12.75, "y": 1 },
         { "label": "I", "row": 1, "col": 6, "x": 13.75, "y": 1 },
         { "label": "O", "row": 1, "col": 7, "x": 14.75, "y": 1 },
         { "label": "P", "row": 1, "col": 8, "x": 15.75, "y": 1 },
         { "label": "\\", "row": 1, "col": 9, "x": 16.75, "y": 1 },
 
-        // Row 2 Left
         { "label": "Caps", "row": 2, "col": 0, "x": 0, "y": 2 },
         { "label": "A", "row": 2, "col": 1, "x": 1.25, "y": 2 },
         { "label": "S", "row": 2, "col": 2, "x": 2.25, "y": 2 },
         { "label": "D", "row": 2, "col": 3, "x": 3.25, "y": 2 },
         { "label": "F", "row": 2, "col": 4, "x": 4.25, "y": 2 },
         
-        // Row 3 Right
         { "label": "J", "row": 2, "col": 15, "x": 12.75, "y": 2 },
         { "label": "K", "row": 2, "col": 16, "x": 13.75, "y": 2 },
         { "label": "L", "row": 2, "col": 17, "x": 14.75, "y": 2 },
         { "label": ";", "row": 2, "col": 18, "x": 15.75, "y": 2 },
-        { "label": "'", "row": 2, "col": 19, "x": 16.75, "y": 2 },
+        { "label": "'", "row": 2, "col": 19, "x": 16.75, "y": 2 }
       ]
     }
   }
