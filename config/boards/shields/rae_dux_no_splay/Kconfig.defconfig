@@ -1,0 +1,18 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_RAE_DUX_NO_SPLAY_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "rae-dux_no_splay"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_RAE_DUX_NO_SPLAY_LEFT || SHIELD_RAE_DUX_NO_SPLAY_RIGHT
+
+config ZMK_SPLIT
+	default y
+endif
