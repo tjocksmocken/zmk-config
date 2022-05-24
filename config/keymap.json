@@ -1,0 +1,28 @@
+{
+  "keyboard": "unknown",
+  "keymap": "unknown",
+  "layout": "unknown",
+  "layer_names": [
+    "Base",
+    "Numbers & Symbols",
+    "Misc"
+  ],
+  "layers": [
+    [
+        "&kp Q",  "&kp W",  "&kp E",  "&kp R",  "&kp T",  "&kp Y",           "&kp U",  "&kp I",  "&kp O",  "&kp P",
+        "&kp A",  "&kp S",  "&kp D",  "&kp F",  "&kp G",  "&kp H",           "&kp J",  "&kp K",  "&kp L",    "&kp",
+        "&kp Z",  "&kp X",  "&kp C",  "&kp V",  "&kp B",  "&kp N",           "&kp M",    "&mt",  "&none",  "&none",
+                                        "&lt",  "&none",  "&none",           "&none",    "&sl",  "&none"
+    ], [
+       "&kp NUMBER_1", "&kp NUMBER_2", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",
+             "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",
+             "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",
+                                                 "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans"
+    ], [
+       "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3", "&kp NUMBER_4", "&kp NUMBER_5",         "&kp NUMBER_6",           "&kp NUMBER_7", "&kp NUMBER_8",    "&kp NUMBER_9", "&kp NUMBER_0",
+             "&trans",       "&trans",       "&trans",       "&trans",       "&trans",       "&kp LEFT_ARROW",               "&kp DOWN", "&kp UP_ARROW", "&kp RIGHT_ARROW",       "&trans",
+             "&trans",       "&trans",       "&trans",       "&trans",       "&trans", "&mt LSHIFT undefined",                 "&trans",       "&trans",          "&trans",       "&trans",
+                                                             "&trans",       "&trans",               "&trans",                 "&trans",       "&trans",          "&trans"
+    ]
+  ]
+}
