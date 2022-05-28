@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
 
 
 &mt {
@@ -74,10 +73,10 @@
 		
 		navigation {
 		    bindings = <
-                &ht ESC LALT(LGUI(ESC))             &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT   &ht Q H 			&kp LG(LBKT)            &kp LC(LS(TAB))     &kp RC(TAB)     &kp LG(RBKT)    &trans
-                &ht TAB LGUI(TAB)                   &mmv MOVE_LEFT      &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &kp DEL  			&kp LEFT                &kp DOWN            &kp UP          &kp RIGHT       &kp ENTER 
-                &td LG(GRAVE) GRAVE                 &mkp RCLK           &mwh SCROLL_UP  &mwh SCROLL_DOWN    &trans   		    &mkp LCLK               &kp PG_DN           &kp K_VOL_DN    &trans          &trans   
-                                                                        &to 0           &ht SPACE LGUI(O)   &trans              &trans                  &kp LGUI            &trans
+                &ht ESC LALT(LGUI(ESC))             &trans    &trans  &trans   &ht Q H 			    &kp LG(LBKT)            &kp LC(LS(TAB))     &kp RC(TAB)     &kp LG(RBKT)    &trans
+                &ht TAB LGUI(TAB)                   &trans    &trans  &trans   &kp DEL  			&kp LEFT                &kp DOWN            &kp UP          &kp RIGHT       &kp ENTER 
+                &td LG(GRAVE) GRAVE                 &trans    &trans  &trans   &trans   		    &trans                  &kp PG_DN           &kp K_VOL_DN    &trans          &trans   
+                                                                      &to 0    &ht SPACE LGUI(O)    &trans                  &trans              &kp LGUI        &trans
 		    >;
 		};      
 	};
