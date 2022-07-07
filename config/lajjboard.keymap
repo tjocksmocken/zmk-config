@@ -10,7 +10,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping_term_ms = <300>;
+    tapping_term_ms = <150>;
 };
 
 / {
@@ -44,7 +44,7 @@
 				&kp Q					&kp W					&kp E						&kp R						&kp T									&kp Y			&kp U	&kp I			&kp O		&kp P 
 				&kp A 				&kp S					&kp D						&kp F						&kp G									&kp H			&kp J	&kp K			&kp L		&kp APOS
 				&mt LSHIFT Z	&kp X					&kp C						&kp V						&kp B									&kp N			&kp M	&kp COMMA	&kp DOT	&mt RSHIFT SLASH
-																		&mt LALT ESC		&lt 3 SPACE			&mt LCTRL TAB					&kp RET		&lt 1 LGUI	&lt 2 BSPC
+																		&mt LALT ESC		&lt 3 SPACE			&mt LCTRL TAB					&mt LGUI BSPC		&lt 1 RCTRL	&lt 2 RET
 			>;
 		};
 
