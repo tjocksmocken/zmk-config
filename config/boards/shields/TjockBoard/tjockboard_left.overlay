@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
- #include "lajjboard.dtsi"
+ #include "tjockboard.dtsi"

@@ -1,17 +1,17 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_LAJJBOARD_LEFT
+if SHIELD_TJOCKBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "lajjBoard"
+	default "TjockBoard"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_LAJJBOARD_LEFT || SHIELD_LAJJBOARD_RIGHT
+if SHIELD_TJOCKBOARD_LEFT || SHIELD_TJOCKBOARD_RIGHT
 
 config ZMK_SPLIT
 	default y
